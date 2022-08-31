@@ -7,7 +7,7 @@ export const Page = React.forwardRef((props, ref) => {
       <div className={style.wrapper} ref={ref}>
         <h2 className={style.title}>Page Header</h2>
         <p>{props.children}</p>
-        <p className={style.subtext}>Page number: {props.number}</p>
+        <p className={style.subtext}> {props.number}</p>
       </div>
     </div>
   );

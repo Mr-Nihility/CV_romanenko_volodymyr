@@ -1,9 +1,9 @@
 .wrapper {
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #fcf9f6;
-  display: flex;
-  flex-direction: column;
-  /* height: 80%; */
+  border-right: 0;
+  box-shadow: inset -7px 0 30px -7px rgb(0 0 0 / 40%);
+  text-align: center;
 }
 
 .title {

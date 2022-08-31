@@ -7,12 +7,11 @@ import style from './Book.module.css';
 export default function Book() {
   const [totalPage, setTotalPage] = useState(0);
   const [page, setPage] = useState(0);
-  // const [flipBook, setFlipBook] = useState(null);
 
   let flipBook = useRef();
 
   useEffect(() => {
-    if (!flipBook) {
+    if (!flipBook.current) {
       return;
     }
     console.log(flipBook.current.pageFlip());

@@ -4,14 +4,12 @@ export const App = () => {
   return (
     <div
       style={{
-        maxHeight: '100vh',
+        // maxHeight: '100vh',
         // display: 'flex',
         // justifyContent: 'center',
         // alignItems: 'center',
-        padding: 50,
+        // padding: 50,
         margin: '0 auto',
-        fontSize: 40,
-        color: '#010101',
       }}
     >
       <Book />
