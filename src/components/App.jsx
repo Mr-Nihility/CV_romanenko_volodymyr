@@ -1,16 +1,20 @@
+import Book from './Book/Book';
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        maxHeight: '100vh',
+        // display: 'flex',
+        // justifyContent: 'center',
+        // alignItems: 'center',
+        padding: 50,
+        margin: '0 auto',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
-      React homework template
+      <Book />
     </div>
   );
 };
