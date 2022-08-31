@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CV_romanenko_volodymyr/static/css/main.a9634bfe.css",
-    "main.js": "/CV_romanenko_volodymyr/static/js/main.16ed9131.js",
-    "static/media/folder-cover.png": "/CV_romanenko_volodymyr/static/media/folder-cover.f24edee060f0985ca7e0.png",
+    "main.css": "/CV_romanenko_volodymyr/static/css/main.19bb9f62.css",
+    "main.js": "/CV_romanenko_volodymyr/static/js/main.ce0cf774.js",
+    "static/media/background.jpg": "/CV_romanenko_volodymyr/static/media/background.c90ed3a774d846bf489c.jpg",
     "static/media/aflfont-webfont.woff": "/CV_romanenko_volodymyr/static/media/aflfont-webfont.6ff5293a2f1abcca2b23.woff",
     "static/media/aflfont-webfont.woff2": "/CV_romanenko_volodymyr/static/media/aflfont-webfont.2dd7d5034de8e8502803.woff2",
     "index.html": "/CV_romanenko_volodymyr/index.html",
-    "main.a9634bfe.css.map": "/CV_romanenko_volodymyr/static/css/main.a9634bfe.css.map",
-    "main.16ed9131.js.map": "/CV_romanenko_volodymyr/static/js/main.16ed9131.js.map"
+    "main.19bb9f62.css.map": "/CV_romanenko_volodymyr/static/css/main.19bb9f62.css.map",
+    "main.ce0cf774.js.map": "/CV_romanenko_volodymyr/static/js/main.ce0cf774.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9634bfe.css",
-    "static/js/main.16ed9131.js"
+    "static/css/main.19bb9f62.css",
+    "static/js/main.ce0cf774.js"
   ]
 }
