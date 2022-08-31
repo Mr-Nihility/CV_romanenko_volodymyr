@@ -1,0 +1,9 @@
+.cover_wrap {
+  background-image: url(../../images/folder-cover.png);
+
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 106% 81%;
+  width: 90%;
+  height: 80%;
+}

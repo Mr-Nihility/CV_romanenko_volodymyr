@@ -1,4 +1,26 @@
 .wrapper {
+  padding: 20px;
   background-color: #fcf9f6;
-  border: 1 px tomato;
+  display: flex;
+  flex-direction: column;
+  /* height: 80%; */
+}
+
+.title {
+  font-size: 29px;
+  line-height: 1.2;
+  letter-spacing: 0.3;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.3;
+}
+.subtext {
+  margin-top: auto;
+
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.3;
 }

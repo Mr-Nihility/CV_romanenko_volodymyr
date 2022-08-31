@@ -1,4 +1,12 @@
 .wrapper {
-  background-color: rgb(237, 69, 69);
-  outline: 1 px tomato;
+  padding: 50px;
+  /* background-image: url(../../images/folder-cover.png);
+  background-size: 110%; */
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 29px;
+  line-height: 1.2;
+  letter-spacing: 0.3;
 }

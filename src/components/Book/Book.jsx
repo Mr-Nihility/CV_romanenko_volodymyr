@@ -2,6 +2,7 @@ import { Cover } from 'components/Cover/Cover';
 import { Page } from 'components/Page/Page';
 import React, { useEffect, useRef, useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
+import style from './Book.module.css';
 
 export default function Book() {
   const [totalPage, setTotalPage] = useState(0);
@@ -15,17 +16,17 @@ export default function Book() {
       return;
     }
     console.log(flipBook.current.pageFlip());
-    setTotalPage(flipBook.current.pageFlip().getPageCount());
+    // setTotalPage(flipBook.current.pageFlip().getPageCount());
   }, [setTotalPage, flipBook]);
 
   const nextButtonClick = () => {
     console.log('nextButtonClick');
-    flipBook.current.pageFlip().flipNext();
+    flipBook.current.pageFlip().turnToNextPage();
   };
 
   const prevButtonClick = () => {
     console.log('prevButtonClick');
-    flipBook.current.pageFlip().flipPrev();
+    flipBook.current.pageFlip().turnToPrevPage();
   };
 
   const onPage = e => {
@@ -40,14 +41,14 @@ export default function Book() {
         height={733}
         size="stretch"
         minWidth={315}
-        maxWidth={800}
+        maxWidth={1000}
         minHeight={400}
-        maxHeight={733}
+        maxHeight={1533}
         maxShadowOpacity={0.5}
         showCover={true}
         mobileScrollSupport={true}
         onFlip={onPage}
-        className="demo-book"
+        className={style.cover_wrap}
         ref={flipBook}
       >
         <Cover />
